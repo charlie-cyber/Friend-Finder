@@ -26,7 +26,7 @@ module.exports = function(app){
                 var recentFriendScore = recentFriend.scores[j];
                 var userScore = userScores[j];
 
-                totalDifference += Math.abs(parseInt(recentUserScore) - parseInt(recentFriendScore));
+                totalDifference += Math.abs(parseInt(userScore) - parseInt(recentFriendScore));
 
             }
 
